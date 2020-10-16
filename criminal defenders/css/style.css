@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Semibold'), local('Lato-Semibold'), url('../fonts/latosemibold.woff2') format('woff2'), url('../fonts/latosemibold.woff') format('woff'), url('../fonts/latosemibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.navbar-brand{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform:translate(-50%, 0);
+
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+  background: #000;
+  color: #fff;
+}
+
+.navbar-toggle .icon-bar{
+  background: #000;
+  width: 30px;
+}
+nav.navbar{
+  min-height: 110px;
+  margin: 0 0 158px 0;
+}
+.navbar-nav>li>a{
+  text-align: center;
+  padding-top: 51px;
+font-family: Lato;
+color: #000;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+}
+
+.navbar-nav .active a{
+  background-color: #000;
+  color: #ffffff;
+}
+.navbar-toggle .icon-bar{
+  width: 45px;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+  margin-top: 10px;
+}
+.navbar-toggle{
+  margin-right: 15px;
+  margin-top: 19px;   
+}
+.persons{
+  border: 2px solid #000000;
+
+}
+.persons img {
+  margin: -65px 0;
+}
+
+.persons+.persons {
+  margin-top: 276px;
+}
+.persons_name{
+  padding: 59px 0;
+}
+.persons_name h3 {
+font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+}
+.persons_name p {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+}
+footer{
+  background-color: #000000;
+  margin-top: 177px;
+  padding: 119px 0;
+  color: #ffffff;
+
+}
+.link{
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: url("../img/facebook.png");
+}
+.contacts{
+  font-family: Lato;
+  font-style: normal;
+}
+
+.contacts h4{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+.contacts a,.contacts p {
+  display: block;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.navbar-toggle .icon-bar{
+  transform-origin: 0 0 0;
+  transition: all 1s ease;
+}
+/* 
+.navbar-toggle .icon-bar+.icon-bar+.icon-bar{
+  transform-origin: 100% 0 0;
+} */
+
+.navbar-toggle[aria-expanded="true"] .icon-bar{
+  transform: rotate(33deg);
+}
+
+.navbar-toggle[aria-expanded="true"] .icon-bar+.icon-bar{
+  opacity: 0;
+  transform: translateX(300px);
+}
+
+.navbar-toggle[aria-expanded="true"] .icon-bar+.icon-bar+.icon-bar{
+  transform: rotate(-33deg);
+  opacity: 1;
+}
+
+@media screen and (max-width:767px){
+  .navbar-brand{
+    left: 5%;
+    transform:translate(0, 0);
+  }
+
+  .persons+.persons {
+    margin-top: 156px;
+}
+
+}
