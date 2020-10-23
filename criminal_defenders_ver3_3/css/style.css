@@ -9,6 +9,10 @@
 html, body{
   scroll-behavior: smooth;
 }
+
+.navbar{
+  border: 0;
+}
 .carousel {
   position: absolute;
   content: "";
