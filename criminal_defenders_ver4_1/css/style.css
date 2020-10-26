@@ -783,6 +783,10 @@ text-transform: uppercase;
     padding: 0;
  }
 
+.custom_margin_about_gen{
+  margin-left: 4.15%;
+}
+
 @media screen and (max-width:1199px){
   .main-page .news_head:before{
     width: calc(50vw - 404px);
@@ -866,5 +870,9 @@ text-transform: uppercase;
   .practic4.open{
     height: 430px;
   }
+  
+  .custom_margin_about_gen{
+  margin-left: 0;
+}
 
 }
