@@ -114,7 +114,7 @@ html, body{
 }
 
 .navbar-toggle{
-      margin-right: 10px;
+      margin-right: -7px;
     margin-top: 20px;
         position: relative;
     z-index: 20;
@@ -774,7 +774,7 @@ text-transform: uppercase;
 
   .main-page h1{
     font-size: 18px;
-    line-height: 45px; 
+    line-height: 25px; 
   }
 
   .heading{
@@ -783,6 +783,7 @@ text-transform: uppercase;
 
   .heading h1+p{
     font-size: 13px;
+    line-height: 20px;
   }
 
   .carousel{
